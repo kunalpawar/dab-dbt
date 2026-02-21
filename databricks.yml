@@ -1,0 +1,37 @@
+bundle:
+  name: my-dbt-bundle
+
+targets:
+  dev:
+    mode: development
+    default: true
+    worspace:
+      host: https://dbc-707ad082-e7d7.cloud.databricks.com/      
+
+
+resources:
+  jobs:
+    dbxdbtjob:
+      name: dbxdbtjob
+      tasks:
+        - task_key: dbxdbtjob
+          dbt_task:
+            project_directory: /Repos/kunalpawar828@gmail.com/dab-dbt123/dbt-testdemo
+            commands:
+              - dbt deps
+              - dbt seed
+              - "dbt run --vars '{\"env\": \"prod\"}'"
+            schema: gold
+            warehouse_id: 8373601b63b2f38b
+            catalog: lakehouse
+            source: WORKSPACE
+          environment_key: dbt-default
+      queue:
+        enabled: true
+      environments:
+        - environment_key: dbt-default
+          spec:
+            dependencies:
+              - dbt-databricks>=1.0.0,<2.0.0
+            environment_version: "4"
+      performance_target: PERFORMANCE_OPTIMIZED

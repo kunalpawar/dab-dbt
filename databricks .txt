@@ -1,6 +1,0 @@
-https://www.youtube.com/watch?v=gD75ONmT9c0
-
-https://www.google.com/search?q=spark+how+to+decide+number+of+executors+based+on+data+size&sca_esv=596193189&biw=1536&bih=738&tbm=vid&ei=OjaZZeCPI7Gc4-EPyau4iAc&oq=spark+how+to+decide+number+of+executors+based+on+data+&gs_lp=Eg1nd3Mtd2l6LXZpZGVvIjZzcGFyayBob3cgdG8gZGVjaWRlIG51bWJlciBvZiBleGVjdXRvcnMgYmFzZWQgb24gZGF0YSAqAggBMgUQIRigATIFECEYoAEyBRAhGKABMgUQIRigAUj8mwFQtwtYoIgBcAZ4AJABAJgB3AOgAew8qgEKMC4zOC4xLjUuMbgBA8gBAPgBAcICBRAhGJ8FwgIHECEYChigAcICBhAAGBYYHsICBRAAGIAEwgILEAAYgAQYigUYhgPCAgcQABiABBgKwgILEAAYgAQYigUYkQLCAg4QABiABBiKBRixAxiDAcICCxAAGIAEGLEDGIMBwgIKEAAYgAQYigUYQ8ICCBAAGIAEGLEDwgIQEAAYgAQYigUYQxixAxiDAcICBBAhGBWIBgE&sclient=gws-wiz-video#fpstate=ive&vld=cid:bdf02185,vid:NFpTXUVPyfQ,st:0
-
-
-https://www.youtube.com/watch?v=ZIVuRlIAFMM

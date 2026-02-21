@@ -1,0 +1,2 @@
+dbt-databricks>=1.7.0
+databricks-cli>=0.205.0
